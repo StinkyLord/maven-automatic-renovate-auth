@@ -2,8 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackageNames": ["intellij-idea-maven-reproduction"],
-      "registryUrls": ["https://maven.pkg.github.com/gorohash/intellij-idea-maven-reproduction"]
+      "matchDatasources": ["maven"],
+      "registryUrls": ["https://maven.pkg.github.com/gorohash"]
     }
   ]
 }
