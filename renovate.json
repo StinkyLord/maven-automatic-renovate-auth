@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["maven"],
-      "registryUrls": ["https://maven.pkg.github.com/gorohash"]
+      "registryUrls": ["https://maven.pkg.github.com"]
     }
   ]
 }
