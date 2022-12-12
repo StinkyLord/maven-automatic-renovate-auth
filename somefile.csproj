@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+  
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>OctocatApp</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Octocat</Authors>
+    <Company>GitHub</Company>
+    <PackageDescription>some pacakge test!</PackageDescription>
+    <RepositoryUrl>https://github.com/OWNER/REPOSITORY</RepositoryUrl>
   </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="VisualOn.MimeMapping" Version="2.1.1" />
-    <None Update="sample.*">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 </Project>
