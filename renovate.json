@@ -2,8 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchDatasources": ["maven"],
-      "registryUrls": ["https://maven.pkg.github.com/gorohash/intellij-idea-maven-reproduction/"]
+      "matchDatasources": ["nuget"],
+      "registryUrls": ["https://nuget.pkg.github.com/visualon/index.json"]
     }
   ]
 }
